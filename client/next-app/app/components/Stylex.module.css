@@ -1,0 +1,130 @@
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+
+.banner{
+    height: 90vh;
+    background: rgba(195, 245, 60, 1);
+}
+
+
+.banner__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80%;
+}
+
+
+.width {
+    max-width: 500px;
+    width: 500px;
+}
+
+.banner__h1{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 60px;
+    letter-spacing: 1.75px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 31px;
+}
+
+.banner__p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.24px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 39px;
+}
+
+.banner__btn{
+    padding: 10px 41px;
+    text-transform: capitalize;
+    background: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    outline: none;
+    border:none;
+    cursor: pointer;
+}
+
+.title{
+    padding: 33px 0px;
+    background-color: white;
+}
+
+
+
+.product{
+    height: 100vh;
+
+}
+
+
+.product__h3{
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 40px;
+    letter-spacing: 0.32px;
+    margin-bottom: 26px;
+    color: rgba(0, 0, 0, 1) !important;
+    text-transform: capitalize;
+}
+
+
+.product__link{
+    cursor: pointer;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.24px;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+    color: rgba(111, 120, 126, 1);
+}
+
+.product__link:hover{
+    color: rgba(255, 144, 175, 1);
+}
+
+.product__p {
+    margin-bottom: 217px;
+    color: black;
+    width: 395px;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+}
+
+.product__btn {
+    outline: none;
+    background: rgba(0, 0, 0, 1);
+    cursor: pointer;
+    border:none;
+    text-transform: capitalize;
+    padding: 10px 38px;
+    border-radius: 17px;
+    color: white;
+}
+
+
